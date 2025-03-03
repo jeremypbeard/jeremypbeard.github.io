@@ -1,0 +1,5 @@
+body {
+  background-color: powderblue;
+  overflow: hidden;
+  scrollbar-gutter: stable;
+}

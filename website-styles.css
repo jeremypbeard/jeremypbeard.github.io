@@ -1,0 +1,39 @@
+[data-bs-theme=purple] {
+  color-scheme: dark;
+  --bs-primary: purple;
+  --bs-primary-rgb: 128, 0, 128;
+  --bs-body-color: purple;
+  --bs-body-color-rgb: 128, 0, 128;
+  --bs-body-bg: lavenderblush;
+  --bs-body-bg-rgb: 255, 240, 245;
+  --bs-emphasis-color: indigo;
+  --bs-emphasis-color-rgb: 70, 0, 70;
+  --bs-primary-text-emphasis: indigo;
+  --bs-link-color: purple;
+  --bs-link-hover-color: orchid;
+  --bs-link-color-rgb: 128, 0, 128;
+  --bs-link-hover-color-rgb: 218, 112, 214;
+
+}
+
+[data-bs-theme=chaos] {
+  color-scheme: light;
+  --bs-primary: blue;
+  --bs-primary-rgb: 0, 255, 0;
+  --bs-body-color: maroon;
+  --bs-body-color-rgb: 255, 255, 0;
+  --bs-body-bg: orange;
+  --bs-body-bg-rgb: 0, 0, 245;
+  --bs-emphasis-color: green;
+  --bs-emphasis-color-rgb: 0, 255, 0;
+  --bs-primary-text-emphasis: red;
+  --bs-link-color: blue;
+  --bs-link-hover-color: navy;
+  --bs-link-color-rgb: 0, 0, 255;
+  --bs-link-hover-color-rgb: 0, 255, 255;
+
+}
+
+body {
+  overflow-y: scroll;
+}
