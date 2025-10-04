@@ -52,6 +52,6 @@ function add_navbar_and_photo_column() {
 }
 
 function secret_mode() {
-	  		document.getElementById("photo").src = "./pig.png";
+	  		document.getElementById("photo").src = "./Pig.png";
 	  		document.getElementById("theme").setAttribute("data-bs-theme", "chaos");
 		}
