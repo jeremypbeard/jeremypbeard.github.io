@@ -51,8 +51,13 @@ function add_navbar_and_photo_column() {
 
 }
 
+var clicks = 0;
+
 function secret_mode() {
+		clicks++;
+		if(clicks == 5) {
 	  		document.getElementById("photo").src = "./Pig.png";
 	  		document.getElementById("theme").setAttribute("data-bs-theme", "chaos");
   			document.getElementById("photo").classList.add("rotating");
 		}
+	}
